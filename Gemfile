@@ -4,16 +4,18 @@ gem 'rails', '3.2.18'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'bootstrap-sass', '3.2.0.0'
+
 
 group :development, :test do
 	gem 'sqlite3'
+	gem 'bootstrap-sass', '3.2.0.0'
 end
 
 
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'bootstrap-sass', '3.2.0.0'
 end
 
 
